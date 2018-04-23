@@ -19,9 +19,9 @@ main {
     margin: 0 auto;
     background: #fff;
     padding: 2.5rem 2rem;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
 }
 
 table {
@@ -29,6 +29,10 @@ table {
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+#education ol {
+    list-style-type: none;
+}
+
 #education ol li:before, #education ol li::before {
-    content: "attr(data-time) ";
+    content: attr(data-time) " ";
 }
