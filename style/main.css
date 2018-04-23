@@ -24,3 +24,7 @@ table {
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
+
+#education ol li:before, #education ol li::before {
+    content: "attr(data-time) ";
+}
