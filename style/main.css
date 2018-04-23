@@ -33,18 +33,20 @@ table {
     list-style-type: none;
 }
 
+#education ol > li {
+    margin-top: 1.2rem;
+}
+
 #education ol > li:before, #education ol li::before {
     content: attr(data-time);
     display: inline;
     vertical-align: top;
-    margin: 1.20rem 1rem 0;
 }
 
 #education ol li > div {
-    margin-top: 1.20rem;
     display: inline-block;
 }
 
 #education ol li > div h1 {
-    margin-top: 1.20rem;
+    margin-top: 0;
 }
