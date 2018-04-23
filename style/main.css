@@ -33,6 +33,14 @@ table, th, td {
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
+table th {
+    padding: .7rem .6rem;
+}
+
+table td {
+    padding: .5rem;
+}
+
 main > section {
     margin: 2rem 0;
 }
