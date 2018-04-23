@@ -29,6 +29,13 @@ table {
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+main > section {
+    margin: 2rem 0;
+}
+main > section h2 {
+    text-align: center;
+}
+
 #education ol {
     list-style-type: none;
 }
@@ -39,9 +46,10 @@ table {
 
 #education ol > li:before, #education ol li::before {
     content: attr(data-time);
-    display: inline;
+    display: inline-block;
     vertical-align: top;
-    margin-right: 1rem;
+    margin-right: .5rem;
+    width: 17%;
 }
 
 #education ol li > div {
