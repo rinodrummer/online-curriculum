@@ -59,7 +59,7 @@ main > section h1 {
 }
 
 #education ol > li:before, #education ol li::before {
-    content: attr(data-time);
+    content: "\8226" attr(data-time);
     display: inline-block;
     vertical-align: top;
     margin-right: .5rem;
