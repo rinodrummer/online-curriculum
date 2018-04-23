@@ -33,11 +33,13 @@ table {
     list-style-type: none;
 }
 
-#education ol li > div {
-    display: inline-block;
+#education ol > li:before, #education ol li::before {
+    content: attr(data-time);
+    display: inline;
+    vertical-align: top;
+    margin-left: 1.20rem 1rem;
 }
 
-#education ol > li:before, #education ol li::before {
-    content: attr(data-time) " ";
-    display: inline;
+#education ol li div h1 {
+    margin-top: 1.20rem;
 }
