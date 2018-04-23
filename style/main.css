@@ -33,6 +33,11 @@ table {
     list-style-type: none;
 }
 
-#education ol li:before, #education ol li::before {
+#education ol li > div {
+    display: inline-block;
+}
+
+#education ol > li:before, #education ol li::before {
     content: attr(data-time) " ";
+    display: inline;
 }
