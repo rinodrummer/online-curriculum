@@ -19,3 +19,8 @@ main {
     background: #fff;
     padding: 2.5rem 2rem;
 }
+
+table {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
