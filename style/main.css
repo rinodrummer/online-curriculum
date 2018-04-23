@@ -41,12 +41,13 @@ table {
     content: attr(data-time);
     display: inline;
     vertical-align: top;
+    margin-right: 1rem;
 }
 
 #education ol li > div {
     display: inline-block;
 }
 
-#education ol li > div h1 {
+#education ol li > div h2 {
     margin-top: 0;
 }
