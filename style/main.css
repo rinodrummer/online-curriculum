@@ -59,11 +59,11 @@ main > section h1 {
 }
 
 #education ol > li:before, #education ol li::before {
-    content: "\8226" attr(data-time);
+    content: "\025AA\000A0" attr(data-time);
     display: inline-block;
     vertical-align: top;
     margin-right: .5rem;
-    width: 17%;
+    width: 18%;
 }
 
 #education ol li > div {
