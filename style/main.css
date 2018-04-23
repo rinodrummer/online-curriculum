@@ -19,22 +19,24 @@ main {
     margin: 0 auto;
     background: #fff;
     padding: 2.5rem 2rem;
-    -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
 }
 
 table {
     text-align: center;
     border-collapse: collapse;
+    margin: .5rem auto;
 }
 
 table, th, td {
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid #ccc;
 }
 
 table th {
     padding: .7rem .6rem;
+    background: rgba(0, 0, 0, .05);
 }
 
 table td {
