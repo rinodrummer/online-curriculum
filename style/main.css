@@ -73,3 +73,7 @@ main > section h1 {
 #education ol li > div h2 {
     margin-top: 0;
 }
+
+section .container {
+    margin: 2rem;
+}
