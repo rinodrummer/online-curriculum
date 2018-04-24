@@ -1,0 +1,149 @@
+html {
+    background: #161616;
+}
+
+body {
+    /*background: url('../../home/vesuvius.svg') no-repeat top center;*/
+    background: url('http://gennarolandolfi.codedwork.it/home/vesuvius.svg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    padding: 5rem 0;
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2.5rem 2rem;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
+}
+
+main > section {
+    margin: 2rem 0;
+}
+main > section h1 {
+    text-align: center;
+}
+
+#education ol {
+    list-style-type: none;
+}
+
+#education ol > li {
+    margin-top: 1.2rem;
+}
+
+#education ol > li:before, #education ol li::before {
+    content: "\025AA\000A0" attr(data-time);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: .5rem;
+    width: 18%;
+}
+
+#education ol li > div {
+    display: inline-block;
+}
+
+#education ol li > div h2 {
+    margin-top: 0;
+}
+
+section .container {
+    margin: 2rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.row > .col-1 {
+    box-sizing: border-box;
+}
+
+.row > .col-2 {
+    box-sizing: border-box;
+}
+
+table.styled {
+    text-align: center;
+    border-collapse: collapse;
+    margin: .5rem auto;
+}
+
+table.styled, .styled th, .styled td {
+    border: 1px solid #ccc;
+}
+
+table.styled th {
+    padding: .7rem .6rem;
+    background: rgba(0, 0, 0, .05);
+}
+
+table.styled td {
+    padding: .5rem;
+}
+
+.skill-list {
+    width: 60%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 25% 75%;
+}
+
+.skill-list h3 {
+    grid-column: 1 / 2;
+}
+
+.skill {
+    margin: 1rem 0;
+    text-align: center;
+    display: block;
+}
+
+.skill.no-fa {
+    font-size: 16pt;
+    font-weight: bold;
+    height: 48px;
+    width: 128px;
+    display: table;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+
+.skill.no-fa .skill-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.progress {
+    display: cell;
+    vertical-align: middle;
+    width: 95%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 3px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .15);
+}
+
+.progress .progress-bar {
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    background: #d01b15;
+    background: -moz-linear-gradient(45deg, #a21510 0%, #d01b15 100%);
+    background: -webkit-linear-gradient(45deg, #a21510 0%,#d01b15 100%);
+    background: linear-gradient(45deg, #a21510 0%,#d01b15 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b1111', endColorstr='#d01b15', GradientType=1);
+}
