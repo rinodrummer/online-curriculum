@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background: url('../../home/vesuvius.svg') no-repeat top center;
+    /*background: url('../../home/vesuvius.svg') no-repeat top center;*/
+    background: url('http://gennarolandolfi.codedwork.it/home/vesuvius.svg') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
