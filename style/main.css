@@ -25,22 +25,22 @@ main {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .45);
 }
 
-table {
+table.styled {
     text-align: center;
     border-collapse: collapse;
     margin: .5rem auto;
 }
 
-table, th, td {
+table.styled, .styled th, .styled td {
     border: 1px solid #ccc;
 }
 
-table th {
+table.styled th {
     padding: .7rem .6rem;
     background: rgba(0, 0, 0, .05);
 }
 
-table td {
+table.styled td {
     padding: .5rem;
 }
 
